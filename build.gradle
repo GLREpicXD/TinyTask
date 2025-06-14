@@ -17,3 +17,14 @@ allprojects {
         jcenter()
     }
 }
+repositories {
+	maven {
+		url "https://jitpack.io"
+	}
+}
+
+dependencies {
+	// ...
+  compile 'com.github.inaka:tinytask:v1'
+  // ...
+}
